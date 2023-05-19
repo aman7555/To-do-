@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    height: 80%;
+    margin: auto;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)),
+        url("/bg.jpg");
+    min-height: 100vh;
+
+    background-color: rgb(127, 127, 211);
+}
+
+h1 {
+    padding: 10px 0 10px 70px;
+    background-color: white;
+}
+
+.header {
+    padding: 3px 5px;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    /* margin-left: 30px;
+     */
+    margin: auto;
+    margin-top: 50px;
+}
+
+.input {
+    width: 25vw;
+    background-color: white;
+    min-height: 50vh;
+    max-height: 60vh;
+    margin-right: 40px;
+    border-radius: 10px;
+}
+
+#input {
+    width: 20vw;
+    height: 5vh;
+    margin: 20px;
+    border-radius: 5px;
+    padding-left: 20px;
+    font-size: 1.1rem;
+}
+
+.textarea {
+    width: 20vw;
+    margin: 0 20px;
+    /* color: blue; */
+    padding-left: 20px;
+    font-size: 1.1rem;
+    max-width: 20vw;
+}
+
+.btn {
+    background-color: green;
+    width: 21.5vw;
+    height: 5vh;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.1rem;
+    margin-left: 20px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.list {
+    width: 50vw;
+    /* border: 2px solid red; */
+    margin-top: 10px;
+    display: flex;
+    /* justify-content: space-between; */
+    flex-direction: column;
+    font-size: 1.4rem;
+
+    max-height: 100vh;
+    /* min-height: 100vh; */
+}
+
+.list-header {
+    width: 50vw;
+    /* border: 2px solid red; */
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.4rem;
+    height: 5vh;
+    padding-bottom: 15px;
+    border-bottom: 1px solid white;
+    color: white;
+}
+
+.list-item {
+    width: 50vw;
+    /* border: 2px solid red; */
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    font-size: 1.4rem;
+    height: 5vh;
+    padding-bottom: 15px;
+}
+
+.task {
+    width: 50vw;
+
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.4rem;
+    background-color: white;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.taskName {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-left: 1%;
+}
+
+.delete-item {
+    background-color: red;
+    font-size: 1.9rem;
+    margin-right: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 3vw;
+}
